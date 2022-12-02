@@ -12,6 +12,5 @@ Each character is converted into its one-hot encoding. An RNN is then trained wi
 Here I predict softmax output logits yˆt ∈ R over the entire vocabulary. The loss is simply the cross-entropy loss of predicting the correct next character.
 
 ### Loss curves
-
-![image](https://user-images.githubusercontent.com/38180831/205385430-2ad1965a-edbc-455c-899a-583aed22b50d.png)
-![image](https://user-images.githubusercontent.com/38180831/205385451-da3a491d-100c-4337-997b-4b548a785463.png)
+![image](https://user-images.githubusercontent.com/38180831/205385524-ad45909e-9e1a-4dff-bc0c-185d9695b158.png)
+![image](https://user-images.githubusercontent.com/38180831/205385566-6e3d711d-47a4-4e93-9472-f04e35274eac.png)
