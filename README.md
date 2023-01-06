@@ -1,5 +1,5 @@
-# RNN-based langauge model
-Pytorch mplementation of a recurrent neural network for predicting the next character in a given sentence. 
+# RNN langauge model
+Pytorch implementation of a recurrent neural network for predicting the next character in a given sentence. 
 
 ## Dataset
 The training dataset used here is the book War and Peace by Leo Tolstoy.
