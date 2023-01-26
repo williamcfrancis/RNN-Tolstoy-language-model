@@ -11,6 +11,11 @@ Each character is converted into its one-hot encoding. An RNN is then trained wi
 
 Here I predict softmax output logits yˆt ∈ R over the entire vocabulary. The loss is simply the cross-entropy loss of predicting the correct next character.
 
+## Usage
+1. Clone into this repository using `!git clone https://github.com/williamcfrancis/RNN-Tolstoy-language-model.git`
+2. Open [`RNN_language_model.ipynb`](https://github.com/williamcfrancis/RNN-Tolstoy-language-model/blob/main/RNN_language_model.ipynb) using Google colab, Jupyter Notebook or other supporting ipynb editor. 
+3. Run the cells sequentially
+
 ## Results
 ![image](https://user-images.githubusercontent.com/38180831/205385524-ad45909e-9e1a-4dff-bc0c-185d9695b158.png)
 ![image](https://user-images.githubusercontent.com/38180831/205385566-6e3d711d-47a4-4e93-9472-f04e35274eac.png)
